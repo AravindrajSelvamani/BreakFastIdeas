@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-llm = ChatOpenAI(model="gpt-4o-mini")
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 prompt = """
 Suggest exactly 5 healthy breakfast ideas.
